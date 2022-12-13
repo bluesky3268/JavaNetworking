@@ -30,11 +30,12 @@ public class ParseJsonEx {
 
          // 배열 속성 정보 얻기
         JSONArray arr = parseJson.getJSONArray("skills");
-        System.out.println("skills : ");
-
+        System.out.println("skills : " + arr.toString());
+        /*
         for (int i = 0; i < arr.length(); i++) {
             System.out.print(arr.get(i) + ";");
         }
+         */
 
     }
 }
